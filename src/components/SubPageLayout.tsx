@@ -71,6 +71,7 @@ export interface SubPageData {
   pageHero: {
     title: string;
     subtitle: string;
+    image: string;
   };
   sectionHeader: {
     badgeColor: string;
@@ -233,7 +234,7 @@ const SubPageLayout = ({ data }: SubPageLayoutProps) => {
           <PageHero
             title={pageHero.title}
             subtitle={pageHero.subtitle}
-            image="/MainScrollableImage/Home.webp"
+            image= {pageHero.image}
           />
         </div>
 

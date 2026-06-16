@@ -63,7 +63,8 @@
     },
     "pageHero": {
       "title": "ASTM A671 Pipes",
-      "subtitle": "Electric fusion welded pipes for pressure service"
+      "subtitle": "Electric fusion welded pipes for pressure service",
+      "image" : "image link"
     },
     "sectionHeader": {
       "badgeColor": "teal",
@@ -5028,7 +5029,7 @@
       ]
     }
   },
-  { 
+  {
     "slug": "inconel-bar",
     "seo": {
       "title": "Inconel Bar Manufacturer | Starlight Tubes",
