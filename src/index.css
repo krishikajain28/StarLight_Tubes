@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@media (prefers-reduced-motion: no-preference) {
+html{
+  scroll-behavior: smooth;
+}
+}
+
 @custom-variant dark (&:is(.dark *));
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
