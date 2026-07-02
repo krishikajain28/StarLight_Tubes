@@ -121,31 +121,31 @@
   force = true
 
 [[redirects]]
-  from = "/aluminum-pipe"
+  from = "/aluminium-pipe"
   to = "/aluminium-pipe"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/aluminum-sheet"
+  from = "/aluminium-sheet"
   to = "/aluminium-sheet"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/aluminum-bar"
+  from = "/aluminium-bar"
   to = "/aluminium-bar"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/aluminum-coil"
+  from = "/aluminium-coil"
   to = "/aluminium-coil"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/aluminum-tube"
+  from = "/aluminium-tube"
   to = "/aluminium-pipe"
   status = 301
   force = true
