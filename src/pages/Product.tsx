@@ -188,7 +188,7 @@ const Product = () => {
     url: "https://www.starlighttubes.com/product",
     breadcrumbs: [
       { name: "Home", url: "https://www.starlighttubes.com/" },
-      { name: "Products", url: "https://www.starlighttubes.com/product" },
+      { name: "Products", url: "https://www.starlighttubes.com/products" },
     ],
     speakableContent: {
       headline:

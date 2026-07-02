@@ -223,8 +223,8 @@
   force = true
 
 [[redirects]]
-  from = "/products"
-  to = "/product"
+  from = "/product"
+  to = "/products"
   status = 301
   force = true
 

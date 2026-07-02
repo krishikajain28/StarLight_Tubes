@@ -303,7 +303,7 @@ const Home = () => {
         {/* View All Products Button */}
         <div className="w-full flex justify-center mt-12 mb-8">
           <Link
-            to="/product"
+            to="/products"
             className="inline-flex items-center px-6 py-3 bg-linear-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-medium rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 border border-green-400/20"
           >
             <span>View All Products</span>

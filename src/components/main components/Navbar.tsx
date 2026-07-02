@@ -25,7 +25,7 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
     },
     {
       name: "Products",
-      link: "/product",
+      link: "/products",
     },
     {
       name: "Tech Info.",
@@ -87,18 +87,17 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
               </Link>
             ))}
             <div className="flex w-full flex-col gap-4">
-              
-            <NavbarButton
-              href="/Catalogue.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              variant="primary"
-              className="w-full px-6 py-3 text-sm font-semibold tracking-wide"
-              onClick={() => setIsMobileMenuOpen(false)}
-              aria-label="Download Starlight Tubes Product Catalogue PDF"
-            >
-              Catalogue
-            </NavbarButton>
+              <NavbarButton
+                href="/Catalogue.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="primary"
+                className="w-full px-6 py-3 text-sm font-semibold tracking-wide"
+                onClick={() => setIsMobileMenuOpen(false)}
+                aria-label="Download Starlight Tubes Product Catalogue PDF"
+              >
+                Catalogue
+              </NavbarButton>
             </div>
           </MobileNavMenu>
         </MobileNav>

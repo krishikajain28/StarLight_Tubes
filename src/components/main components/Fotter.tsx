@@ -1,7 +1,13 @@
+import {
+  Globe,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  type LucideIcon,
+} from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router";
-import {Linkedin, Mail, MapPin, Globe, Phone} from "lucide-react";
-import { type LucideIcon } from "lucide-react";
 
 // Declare Google Translate types
 declare global {
@@ -203,7 +209,7 @@ export default function Footer() {
         { name: "Certificates", path: "/certificates" },
         { name: "Technical Info", path: "/technical-info" },
         { name: "Materials", path: "/materials" },
-        { name: "Products", path: "/product" },
+        { name: "Products", path: "/products" },
         { name: "Blog", path: "/blog" },
         { name: "Contact Us", path: "/contact" },
       ],

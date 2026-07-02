@@ -376,7 +376,7 @@ const BlogPost = () => {
                       Request a Quote
                     </Link>
                     <Link
-                      to="/product"
+                      to="/products"
                       className="px-8 py-3 bg-white/10 text-white font-semibold rounded-full hover:bg-white/20 transition-colors border border-white/20"
                     >
                       View Full Catalog

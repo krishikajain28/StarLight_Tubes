@@ -32,7 +32,7 @@ const PAGE_META: Record<string, { title: string; description: string }> = {
     description:
       "Leading steel pipe manufacturer & exporter in India. SS, carbon steel, nickel alloy pipes, fittings & flanges. ISO 9001 certified. Export to USA, UAE, Germany, Italy, Saudi Arabia, UK, Qatar & 60+ countries.",
   },
-  "/product": {
+  "/products": {
     title: "Steel Pipes & Tubes Products | Starlight Tubes",
     description:
       "SS, carbon steel, nickel alloy, inconel, copper pipes, fittings & flanges. Seamless & welded. ASTM, API, ASME standards. Export to 60+ countries.",

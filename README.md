@@ -149,7 +149,7 @@ netlify/
     └── inject-canonical.ts # Server-side SEO injection (canonical, meta, schemas)
 
 scripts/
-└── submit-indexnow.mjs     # IndexNow URL submission script
+(no scripts currently in use)
 ```
 
 ---

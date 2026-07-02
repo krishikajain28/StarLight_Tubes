@@ -35,7 +35,7 @@ const Fittings = lazy(() => import("./pages/Fittings"));
 const CarbonSteelPage = lazy(() => import("./pages/CarbonSteel"));
 const NickelAlloysPage = lazy(() => import("./pages/NickelAlloys"));
 const InconelPage = lazy(() => import("./pages/Inconel"));
-const VerifyInvoice = lazy( () => import("./pages/VerifyInvoice") );
+const VerifyInvoice = lazy(() => import("./pages/VerifyInvoice"));
 
 // Lazy load blog pages
 const Blog = lazy(() => import("./pages/Blog"));
@@ -55,7 +55,7 @@ function App() {
             {/* Main pages - no lazy loading for instant access */}
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/product" element={<Product />} />
+            <Route path="/products" element={<Product />} />
             <Route path="/technical-info" element={<TechnicalInfo />} />
             <Route path="/coating" element={<Coating />} />
             <Route path="/contact" element={<Contact />} />
@@ -81,10 +81,7 @@ function App() {
             <Route path="/admin" element={<Admin />} />
 
             {/* Verifiying Invoice */}
-            <Route
-            path="/verify/:verificationId"
-            element={<VerifyInvoice />}
-            />
+            <Route path="/verify/:verificationId" element={<VerifyInvoice />} />
 
             {/* Dynamic sub pages - single route handles all product sub pages */}
             <Route path="/:slug" element={<DynamicSubPage />} />
